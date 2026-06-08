@@ -11,7 +11,7 @@ const PORT = parseInt(process.env.PORT, 10) || 3001;
 
 // ── Middleware ───────────────────────────────────────────────
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: '*',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
@@ -42,7 +42,7 @@ app.use((err, req, res, next) => {
   console.error('Unhandled error:', err);
   res.status(500).json({ error: 'Internal server error', message: err.message });
 });
-console.log("Tavily Key:", process.env.TAVILY_API_KEY);
+
 app.listen(PORT, () => {
   console.log(`✅ Evaflux backend running on http://localhost:${PORT}`);
 });
