@@ -17,7 +17,8 @@ function PartSourcingPage() {
     setError(null);
     setResults(null);
     try {
-      const response = await axios.post('/api/partsource', formData);
+      
+      const response = await axios.post('https://evaflux-ai.onrender.com/api/partsource', formData);
       if (response.data && response.data.success) {
         setResults(response.data);
       } else {

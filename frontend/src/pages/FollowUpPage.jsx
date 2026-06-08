@@ -23,7 +23,8 @@ function FollowUpPage() {
     setCopied(false);
 
     try {
-      const response = await axios.post('/api/followup', {
+      
+      const response = await axios.post('https://evaflux-ai.onrender.com/api/followup', {
         originalInquiry,
         currentSituation,
         buyerCountry,
