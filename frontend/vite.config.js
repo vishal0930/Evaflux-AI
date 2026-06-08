@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://evaflux-ai.onrender.com',
         changeOrigin: true,
         secure: false,
       },
