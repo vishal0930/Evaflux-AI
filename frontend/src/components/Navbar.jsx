@@ -14,7 +14,7 @@ function Navbar() {
             <span className="font-bold text-lg tracking-tight font-sans text-white">
               Evaflux <span className="bg-gradient-to-r from-brand-500 to-blue-400 bg-clip-text text-transparent">AI</span>
             </span>
-            <span className="text-xs text-slate-500 -mt-1 font-sans">Enterprise Sourcing</span>
+            <span className="text-xs text-slate-500 -mt-1 font-sans">Lead Intelligence & Follow-up</span>
           </div>
         </div>
         

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Alpha Automation Systems",
+    "country": "United States",
+    "productName": "Siemens Simatic S7-1500 PLC",
+    "targetPrice": 1800
+  },
+  {
+    "id": 2,
+    "name": "Bavaria Tech Group",
+    "country": "Germany",
+    "productName": "Beckhoff CX5130 Embedded PC",
+    "targetPrice": 950
+  },
+  {
+    "id": 3,
+    "name": "Nippon Systems Ltd",
+    "country": "Japan",
+    "productName": "Mitsubishi FX5U PLC",
+    "targetPrice": 450
+  },
+  {
+    "id": 4,
+    "name": "Gulf Controls & Sensors",
+    "country": "United Arab Emirates",
+    "productName": "Omron E2E Proximity Sensor",
+    "targetPrice": 120
+  },
+  {
+    "id": 5,
+    "name": "Indus Robotics Co",
+    "country": "India",
+    "productName": "Yaskawa Sigma-7 Servo Drive",
+    "targetPrice": 1100
+  },
+  {
+    "id": 6,
+    "name": "Sino Manufacturing Corp",
+    "country": "China",
+    "productName": "Delta AS300 PLC",
+    "targetPrice": 300
+  },
+  {
+    "id": 7,
+    "name": "UK Power & Logic Ltd",
+    "country": "United Kingdom",
+    "productName": "Schneider Electric Modicon M221",
+    "targetPrice": 550
+  },
+  {
+    "id": 8,
+    "name": "Nordic Wind Systems",
+    "country": "Denmark",
+    "productName": "Danfoss VLT FC-302 VFD",
+    "targetPrice": 1500
+  },
+  {
+    "id": 9,
+    "name": "Rio Automated Lines",
+    "country": "Brazil",
+    "productName": "WEG CFW500 Variable Speed Drive",
+    "targetPrice": 680
+  },
+  {
+    "id": 10,
+    "name": "Sydney Water Solutions",
+    "country": "Australia",
+    "productName": "Allen-Bradley ControlLogix 5580",
+    "targetPrice": 3200
+  },
+  {
+    "id": 11,
+    "name": "Milan Smart Factory",
+    "country": "Italy",
+    "productName": "SMC Pneumatic Valve Manifold",
+    "targetPrice": 850
+  },
+  {
+    "id": 12,
+    "name": "Singapore Chip Foundry",
+    "country": "Singapore",
+    "productName": "Keyence LJ-X8000 3D Laser Profile",
+    "targetPrice": 4500
+  },
+  {
+    "id": 13,
+    "name": "Seoul Precision Machinery",
+    "country": "South Korea",
+    "productName": "Autonics TK4S Temperature Controller",
+    "targetPrice": 90
+  },
+  {
+    "id": 14,
+    "name": "Mex Automation S.A.",
+    "country": "Mexico",
+    "productName": "Phoenix Contact Quint Power Supply",
+    "targetPrice": 350
+  },
+  {
+    "id": 15,
+    "name": "Cape Town Distilleries",
+    "country": "South Africa",
+    "productName": "Endress+Hauser Promass Flowmeter",
+    "targetPrice": 2600
+  },
+  {
+    "id": 16,
+    "name": "Toronto Packaging Systems",
+    "country": "Canada",
+    "productName": "Sick deTec4 Safety Light Curtain",
+    "targetPrice": 1300
+  },
+  {
+    "id": 17,
+    "name": "Lyon Robotics & Logistics",
+    "country": "France",
+    "productName": "Fanuc R-30iB Controller",
+    "targetPrice": 5200
+  },
+  {
+    "id": 18,
+    "name": "Ankara Steel Works",
+    "country": "Turkey",
+    "productName": "Siemens Sirius Soft Starter",
+    "targetPrice": 720
+  },
+  {
+    "id": 19,
+    "name": "Polish Grid Solutions",
+    "country": "Poland",
+    "productName": "ABB ACS580 Variable Frequency Drive",
+    "targetPrice": 1400
+  },
+  {
+    "id": 20,
+    "name": "Hanoi Agro-processing",
+    "country": "Vietnam",
+    "productName": "Fuji Electric HMI Monitouch",
+    "targetPrice": 480
+  }
+]

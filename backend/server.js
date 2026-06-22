@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import followupRouter from './routes/followup.js';
-import partsourceRouter from './routes/partsource.js';
+import leadRouter from './routes/lead.js';
 
 dotenv.config();
 
@@ -24,13 +24,13 @@ app.get('/', (req, res) => {
     status: 'ok',
     message: 'Evaflux API is running',
     version: '1.0.0',
-    endpoints: ['/api/followup', '/api/partsource'],
+    endpoints: ['/api/followup', '/api/leads'],
   });
 });
 
 // ── Routes ───────────────────────────────────────────────────
 app.use('/api/followup', followupRouter);
-app.use('/api/partsource', partsourceRouter);
+app.use('/api/leads', leadRouter);
 
 // ── 404 Handler ──────────────────────────────────────────────
 app.use((req, res) => {
